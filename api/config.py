@@ -52,7 +52,7 @@ def initialize_app() -> FastAPI:
         """Health check endpoint"""
         from datetime import datetime
         return {
-            "status": "healthy",
+            "status": "ok",
             "version": "1.0.0",
             "timestamp": datetime.now().isoformat()
         }
