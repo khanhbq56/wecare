@@ -5,4 +5,6 @@
 /prompt_v1.txt
 /prompt_v2.txt
 /prompt_v3.txt
-/__pycache__
+*/__pycache__
+/prompt
+/logs
